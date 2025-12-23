@@ -1,15 +1,6 @@
-.destinations .item header {
-  display: block;
-  background: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
-}
-
 .destinations .section-title {
   width: 312px;
   height: 98px;
-  margin: 0 auto;
 }
 .destinations .section-title h2 {
   font-size: 32px;
@@ -53,19 +44,13 @@
   font-weight: var(--text-weight);
 }
 
-.destinations-items .item a {
-  width: 312px;
-  height: 64px;
-  text-align: center;
+.destinations .button {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .destinations .section-title {
-    width: 100%;
-  }
-
   .destinations-items {
-    padding: 0 60px;
+    padding: 0;
   }
 
   .destinations-items .item {
@@ -77,7 +62,7 @@
     width: 648px;
     height: 452px;
     background: url("../img/tokyo-tablet-deskt.jpg");
-    background-size: cover;
+    /* background-size: cover; */
   }
 
   .destinations .item .img-item.osaka {
@@ -85,11 +70,26 @@
     background-size: cover;
     background-position: left;
   }
+
+  .destinations .button {
+  width: 280px;
+}
 }
 
 @media screen and (min-width: 1024px) {
+  .destinations {
+    width: 900px;
+  }
+
+  .destinations .item .img-item {
+    width: 100%;
+    height: 452px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .destinations {
-    padding: 0 120px;
+    width: 1200px;
 }
 
   .destinations-items {
@@ -102,7 +102,7 @@
 
   .destinations .item .img-item {
     width: 588px;
-    height: 750px;
+    height: 452px;
     background: url("../img/tokyo-tablet-deskt.jpg");
     background-size: cover;
   }
