@@ -97,17 +97,6 @@
 }
 
   .destinations-items {
-    /* display: flex; */
     flex-direction: row;
-    /* width: 1200px;
-    height: 873px;
-    padding: 0; */
   }
-
-  /* .destinations .item .img-item {
-    width: 588px;
-    height: 452px;
-    background: url("../img/tokyo-tablet-deskt.jpg");
-    background-size: cover;
-  } */
 }
