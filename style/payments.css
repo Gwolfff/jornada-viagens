@@ -1,0 +1,18 @@
+.image-content{
+    display: grid;
+}
+
+.image .bag {
+    width: 144px;
+    height: 254px;
+}
+
+.image .passport {
+    width: 144px;
+    height: 254px;
+}
+
+.image .people {
+    width: 312px;
+    height: 182px;
+}
