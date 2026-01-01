@@ -33,15 +33,10 @@
 
 .destinations-items .item h4 {
   margin: 24px 0;
-  font-size: 28px;
-  font-weight: var(--title-weight);
 }
 
 .destinations-items .item p {
   margin: 24px 0;
-  font-size: 20px;
-  line-height: 32px;
-  font-weight: var(--text-weight);
 }
 
 .destinations .button {
