@@ -35,9 +35,50 @@
     line-height: 32px;
 }
 
+@media screen and (min-width: 1024px) {
+    .testimonial-conteiner article header {
+        padding-bottom: 2px;
+    }
+.testimonial-conteiner header p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.testimonial-conteiner footer {
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+}
+
 
 @media screen and (min-width: 1440px) {
     .testimonial-conteiner {
         flex-direction: row;
+        gap:  8px;
     }
+
+    .testimonial-conteiner  {
+        width: 1200px;
+        height: 206px;
+    }
+
+    .testimonial-conteiner  article {
+        width: 384px;
+        height: 178px;
+    }
+
+    .testimonial-conteiner article header {
+        width: 384px;
+        align-items: center;
+        padding: 0;
+    }
+
+    .testimonial-conteiner header p {
+    font-size: 16px;
+    line-height: 28px; }
+
+    .testimonial-conteiner footer {
+    justify-content: unset;
+}
 }
