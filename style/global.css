@@ -9,7 +9,7 @@
 
 :root {
   --primary-color: #8f0101;
-  --secundary-color: #b81515;
+  --secondary-color: #b81515;
 
   --background-primary-color: #ffffff;
   --background-secundary-color: #f5f5f5;
@@ -70,7 +70,7 @@ section.hero {
 .section-title hr {
   width: 180px;
   height: 4px;
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
 }
@@ -93,7 +93,7 @@ section.hero {
   color: var(--background-primary-color);
   font-weight: var(--title-weight);
   font-size: 20px;
-  background-color: var(--secundary-color);
+  background-color: var(--secondary-color);
   border-radius: 16px;
   display: inline-block;
   text-decoration: none;
