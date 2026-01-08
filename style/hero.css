@@ -1,6 +1,6 @@
 .hero .hero-img,
 .bottom-hero .hero-img,
-.pacotes-hero .hero-img {
+.pacotes-hero .hero-img, .bottom-pacotes-hero .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -11,7 +11,7 @@
 }
 
 .bottom-hero,
-.pacotes-hero {
+.pacotes-hero, .bottom-pacotes-hero {
   width: 100%;
   margin-bottom: 0;
 }
@@ -20,6 +20,8 @@
   background: url("../img/Imagem-pre-rodape-mobile.png") no-repeat;
   background-size: cover;
 }
+
+
 
 .pacotes-hero {
   margin: 0 auto 88px;
