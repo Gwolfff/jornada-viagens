@@ -103,7 +103,7 @@
     height: 620px;
   }
 
-  .pacotes-hero  .hero-content h2 {
+  .pacotes-hero .hero-content h2 {
     width: 579px;
     text-align: left;
     padding-bottom: 14px;
@@ -157,13 +157,11 @@
     background-size: cover;
   }
 
-  
-
   .hero h2 {
     padding: 88px 120px;
   }
 
-.pacotes-hero .hero-content hr {
+  .pacotes-hero .hero-content hr {
     margin-left: 0;
     margin-right: 39%;
   }

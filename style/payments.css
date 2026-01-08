@@ -1,4 +1,5 @@
-.payments .image-gallery {
+.payments .image-gallery,
+.payment .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -25,6 +26,29 @@
 .payments .content-conteiner .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
+
+.payment .content-conteiner .image-gallery .image.first {
+  background: url("../img/payment-gallery1-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.payment .content-conteiner .image-gallery .image.second {
+  background: url("../img/payment-gallery2-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.payment .content-conteiner .image-gallery .image.thirdy {
+  background: url("../img/payment-gallery3-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.payment .content-conteiner .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
+.content-conteiner .text-content a {
+  margin: 24px 0 0;
+} 
 
 @media screen and (min-width: 768px) {
   .payments .content-conteiner .image-gallery .image.first {
