@@ -46,9 +46,18 @@
   grid-column: span 2;
 }
 
+.payment h3 {
+  margin: 24px 0;
+  font-size: 40px;
+}
+
+.payment h4 {
+  font-size: 28px;
+}
+
 .content-conteiner .text-content a {
   margin: 24px 0 0;
-} 
+}
 
 @media screen and (min-width: 768px) {
   .payments .content-conteiner .image-gallery .image.first {
@@ -65,19 +74,56 @@
     background: url("../img/gallery3-tablet.png") no-repeat;
     background-size: cover;
   }
+
+  /* sessao payment */
+
+  .payment .content-conteiner .image-gallery .image.first {
+    background: url("../img/payment-gallery1-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
+  .payment .content-conteiner .image-gallery .image.second {
+    background: url("../img/payment-gallery2-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
+  .payment .content-conteiner .image-gallery .image.thirdy {
+    background: url("../img/payment-gallery3-tablet.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payment .content-conteiner .image-gallery .image.first {
+    background: url("../img/payment-gallery1-desktop.png") no-repeat;
+    background-size: cover;
+  }
+
+  .payment .content-conteiner .image-gallery .image.second {
+    background: url("../img/payment-gallery2-desktop.png") no-repeat;
+    background-size: cover;
+  }
+
+  .payment .content-conteiner .image-gallery .image.thirdy {
+    background: url("../img/payment-gallery3-desktop.png") no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  .payments .content-conteiner {
+  .payments .content-conteiner,
+  .payment .content-conteiner {
     display: flex;
     justify-content: space-between;
   }
 
-  .payments .content-conteiner .text-content {
+  .payments .content-conteiner .text-content,
+  .payment .content-conteiner .text-content {
     width: 360px;
   }
 
-  .payments .content-conteiner .image-gallery {
+  .payments .content-conteiner .image-gallery,
+  .payment .content-conteiner .image-gallery {
     width: 790px;
     margin: 0;
   }
