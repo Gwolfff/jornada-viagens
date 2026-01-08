@@ -21,7 +21,10 @@
   background-size: cover;
 }
 
-
+.bottom-pacotes-hero .hero-img {
+  background: url("../img/imagem-pacotes-rodape-mobile.png") no-repeat;
+  background-size: cover;
+}
 
 .pacotes-hero {
   margin: 0 auto 88px;
@@ -94,6 +97,11 @@
     background-size: cover;
   }
 
+  .bottom-pacotes-hero .hero-img {
+  background: url("../img/imagem-pacotes-rodape-tablet.png") no-repeat;
+  background-size: cover;
+}
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -159,6 +167,12 @@
     background-size: cover;
   }
 
+  .bottom-pacotes-hero .hero-img {
+  background: url("../img/imagem-pacotes-rodape-desktop.png") no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
   .hero h2 {
     padding: 88px 120px;
   }
@@ -187,6 +201,13 @@
     background-size: cover;
     height: 620px;
   }
+
+
+  .bottom-pacotes-hero .hero-img {
+  background: url("../img/imagem-pacotes-rodape-desktop.png") no-repeat;
+  background-size: cover;
+  height: 700px;
+}
 }
 
 @media screen and (min-width: 1920px) {
