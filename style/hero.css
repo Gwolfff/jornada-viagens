@@ -1,5 +1,6 @@
 .hero .hero-img,
-.bottom-hero .hero-img {
+.bottom-hero .hero-img,
+.pacotes-hero .hero-img, .bottom-pacotes-hero .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -9,7 +10,8 @@
   background-size: cover;
 }
 
-.bottom-hero {
+.bottom-hero,
+.pacotes-hero, .bottom-pacotes-hero {
   width: 100%;
   margin-bottom: 0;
 }
@@ -19,6 +21,21 @@
   background-size: cover;
 }
 
+.bottom-pacotes-hero .hero-img {
+  background: url("../img/imagem-pacotes-rodape-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.pacotes-hero {
+  margin: 0 auto 88px;
+}
+
+.pacotes-hero .hero-img {
+  background: url("../img/imagem-pacotes-de-viagens-mobile.jpg") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
 .hero h2 {
   padding: 88px 24px;
   margin: 0;
@@ -26,6 +43,45 @@
   font-size: 20px;
   text-align: center;
   line-height: 1.5;
+}
+
+.pacotes-hero .hero-content {
+  width: 312px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 35px;
+}
+
+.pacotes-hero .hero-content h2 {
+  word-spacing: -5px;
+  margin: 0;
+  color: var(--text-secunddary-color);
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  line-height: 100%;
+  padding: 40px 24px 14px 24px;
+  gap: 16px;
+}
+
+.pacotes-hero .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  margin: 0;
+  border: 0;
+  margin-left: 24px;
+}
+
+.pacotes-hero .hero-content p {
+  width: 312px;
+  height: 160px;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: justify;
+  color: var(--text-secunddary-color);
+  padding: 10px 24px 40px 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -41,9 +97,61 @@
     background-size: cover;
   }
 
+  .bottom-pacotes-hero .hero-img {
+  background: url("../img/imagem-pacotes-rodape-tablet.png") no-repeat;
+  background-size: cover;
+}
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
+  }
+
+  .pacotes-hero .hero-img {
+    background: url("../img/imagem-pacoter-de-viagens-tablet.png") no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
+  .pacotes-hero .hero-content h2 {
+    width: 579px;
+    text-align: left;
+    padding-bottom: 14px;
+  }
+
+  .pacotes-hero .hero-content hr {
+    margin-left: 0;
+    margin-right: 51%;
+  }
+
+  .pacotes-hero .hero-content p {
+    width: 579px;
+    height: 303px;
+    padding: 0;
+    margin-top: 16px;
+  }
+
+  .pacotes-hero {
+    text-align: center;
+  }
+
+  .pacotes-hero .hero-content {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+  }
+
+  .pacotes-hero .hero-content .conteudo-hero h2 {
+    text-align: left;
+    padding: 40px 24px 15px 0;
+  }
+
+  .pacotes-hero .hero-content p {
+    font-size: 32px;
+    width: 579px;
+    height: 192px;
+    line-height: 150%;
   }
 }
 
@@ -59,9 +167,47 @@
     background-size: cover;
   }
 
+  .bottom-pacotes-hero .hero-img {
+  background: url("../img/imagem-pacotes-rodape-desktop.png") no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
   .hero h2 {
     padding: 88px 120px;
   }
+
+  .pacotes-hero .hero-content hr {
+    margin-left: 0;
+    margin-right: 39%;
+  }
+
+  .pacotes-hero .hero-content {
+    align-items: unset;
+  }
+
+  .pacotes-hero .hero-content .conteudo-hero {
+    margin-left: 100px;
+  }
+
+  .pacotes-hero .hero-content h2 {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pacotes-hero .hero-img {
+    background: url("../img/imagem-pacotes-de-viagens-desktop.png") no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
+
+  .bottom-pacotes-hero .hero-img {
+  background: url("../img/imagem-pacotes-rodape-desktop.png") no-repeat;
+  background-size: cover;
+  height: 700px;
+}
 }
 
 @media screen and (min-width: 1920px) {
