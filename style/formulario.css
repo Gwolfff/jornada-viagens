@@ -1,0 +1,7 @@
+.contato-paragrafo {
+    font-weight: var(--text-weight);
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    padding: 24px 24px;
+}
