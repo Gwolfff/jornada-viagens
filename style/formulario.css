@@ -1,7 +1,36 @@
 .contato-paragrafo {
-    font-weight: var(--text-weight);
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    padding: 24px 24px;
+  font-weight: var(--text-weight);
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  padding: 24px 24px;
+}
+
+/* formulário */
+.form-contato .form {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 262px;
+  padding: 0px 24px;
+}
+
+.form-contato .form input {
+  height: 40px;
+  border: none;
+  border-bottom: 3px solid #d9d9d9;
+  outline: none;
+}
+
+.form-contato .form input:focus {
+  border: none;
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.form-contato .form input::placeholder {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
 }
