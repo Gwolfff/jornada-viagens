@@ -1,3 +1,7 @@
+.contato-text {
+    margin-bottom: 56px;
+  }
+
 .contato-paragrafo {
   font-weight: var(--text-weight);
   font-size: 16px;
@@ -11,8 +15,8 @@
   display: flex;
   flex-direction: column;
   gap: 64px;
-  width: 262px;
-  padding: 0px 24px;
+  width: 310px;
+  padding: 0px;
 }
 
 .form-contato .form input {
@@ -27,10 +31,73 @@
   border-bottom: 3px solid var(--secondary-color);
 }
 
-.form-contato .form input::placeholder {
+.form-contato .form input::placeholder{
+  font-size: 22px;
+  line-height: 32px;
+  color: #8C8C8C;
+}
+
+.form-contato .form .form-area p {
   font-size: 20px;
   line-height: 32px;
+  color: #8C8C8C;
+  margin-bottom: 8px;
+}
+
+.form-contato .form .form-area textarea {
+  width: 310px;
+  height: 90px;
+  border: 1px solid #8C8C8C;
 }
 
 @media screen and (min-width: 768px) {
+  .contato-paragrafo {
+    padding: 0;
+    width: 648px;
+    font-size: 20px;
+  }
+
+  .form-contato .form {
+    width: 648px;
+    padding: 0px;
+  }
+
+  .form-contato .form .form-area textarea {
+    width: 648px;
+  }
+
+  .form-contato .form a {
+    width: 280px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+ 
+  .contato-paragrafo {
+    width: 900px;
+  }
+
+  .form-contato .form {
+    width: 900px;
+  }
+
+  .form-contato .form .contatos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .form-contato .form input[type="tel"] {
+    width: 438px;
+  }
+  .form-contato .form input[type="email"] {
+    width: 438px;
+    margin-left: 24px;
+  }
+
+  .form-contato .form #subject {
+    display: flex;
+    gap: 0;
+  }
 }

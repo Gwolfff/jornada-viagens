@@ -82,7 +82,7 @@
       </p>
     </section>
     <section class="form-contato">
-      <form action="#" class="form">
+      <form action="#" class="form" method="get">
         <label for="name"></label>
         <input
           type="text"
@@ -90,23 +90,33 @@
           id="name"
           placeholder="Seu Nome"
           class="form-campos"
+          minlength="15"
+          maxlength="40"
+          required
         />
-        <label for="tel"></label>
-        <input
-          type="tel"
-          name="tel"
-          id="tel"
-          placeholder="Telefone"
-          class="form-campos"
-        />
-        <label for="email"></label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email"
-          class="form-campos"
-        />
+        <div class="contatos">
+          <label for="tel"></label>
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="Telefone"
+            class="form-campos"
+            pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}"
+            required
+          />
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            class="form-campos"
+            size="30"
+            maxlength="50"
+            required
+          />
+        </div>
         <label for="subject"></label>
         <input
           type="text"
@@ -114,6 +124,8 @@
           id="subject"
           placeholder="Assunto"
           class="form-campos"
+          minlength="20"
+          maxlength="40"
         />
 
         <div class="form-area">
@@ -122,7 +134,7 @@
         </div>
 
         <a
-          href="#'"
+          href="#"
           class="button"
           target="_blank"
           title="Veja detalhes do destino Tokyo"
