@@ -3,7 +3,8 @@
 .pacotes-hero .hero-img,
 .bottom-pacotes-hero .hero-img,
 .contato-hero .hero-img,
-.bottom-contato-hero .hero-img {
+.bottom-contato-hero .hero-img,
+.blog-hero .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -17,7 +18,8 @@
 .pacotes-hero,
 .bottom-pacotes-hero,
 .contato-hero,
-.bottom-contato-hero {
+.bottom-contato-hero,
+.blog-hero {
   width: 100%;
   margin-bottom: 0;
 }
@@ -53,6 +55,11 @@
   background-size: cover;
 }
 
+.blog-hero .hero-img {
+  background: url("../img/blog-hero-mobile.png") no-repeat;
+  background-size: cover;
+}
+
 .hero h2 {
   padding: 88px 24px;
   margin: 0;
@@ -63,7 +70,8 @@
 }
 
 .pacotes-hero .hero-content,
-.contato-hero .hero-content {
+.contato-hero .hero-content,
+.blog-hero .hero-content {
   width: 312px;
   height: 330px;
   display: flex;
@@ -73,7 +81,8 @@
 }
 
 .pacotes-hero .hero-content h2,
-.contato-hero .hero-content h2 {
+.contato-hero .hero-content h2,
+.blog-hero .hero-content h2 {
   word-spacing: -5px;
   margin: 0;
   color: var(--text-secunddary-color);
@@ -85,7 +94,8 @@
 }
 
 .pacotes-hero .hero-content hr,
-.contato-hero .hero-content hr {
+.contato-hero .hero-content hr,
+.blog-hero .hero-content hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -95,7 +105,8 @@
 }
 
 .pacotes-hero .hero-content p,
-.contato-hero .hero-content p {
+.contato-hero .hero-content p,
+.blog-hero .hero-content p {
   width: 312px;
   height: 160px;
   font-size: 20px;
@@ -146,21 +157,30 @@
     height: 620px;
   }
 
+  .blog-hero .hero-img {
+    background: url("../img/blog-hero-tablet.png") no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
   .pacotes-hero .hero-content h2,
-  .contato-hero .hero-content h2 {
+  .contato-hero .hero-content h2,
+  .blog-hero .hero-content h2 {
     width: 579px;
     text-align: left;
     padding-bottom: 14px;
   }
 
   .pacotes-hero .hero-content hr,
-  .contato-hero .hero-content hr {
+  .contato-hero .hero-content hr,
+  .blog-hero .hero-content hr {
     margin-left: 0;
     margin-right: 51%;
   }
 
   .pacotes-hero .hero-content p,
-  .contato-hero .hero-content p {
+  .contato-hero .hero-content p,
+  .blog-hero .hero-content p {
     width: 579px;
     height: 303px;
     padding: 0;
@@ -168,12 +188,14 @@
   }
 
   .pacotes-hero,
-  .contato-hero {
+  .contato-hero,
+  .blog-hero {
     text-align: center;
   }
 
   .pacotes-hero .hero-content,
-  .contato-hero .hero-content {
+  .contato-hero .hero-content,
+  .blog-hero .hero-content {
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -181,17 +203,20 @@
   }
 
   .pacotes-hero .hero-content .conteudo-hero h2,
-  .contato-hero .hero-content .conteudo-hero h2 {
+  .contato-hero .hero-content .conteudo-hero h2,
+  .blog-hero .hero-content h2 {
     text-align: left;
     padding: 40px 24px 15px 0;
   }
 
   .pacotes-hero .hero-content p,
-  .contato-hero .hero-content p {
+  .contato-hero .hero-content p,
+  .blog-hero .hero-content p {
     font-size: 32px;
     width: 579px;
-    height: 192px;
+    height: 200px;
     line-height: 150%;
+    text-align: left;
   }
 }
 
