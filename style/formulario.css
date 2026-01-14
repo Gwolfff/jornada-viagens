@@ -57,7 +57,7 @@
     font-size: 20px;
   }
 
-  .form-contato .form {
+  .form-contato .form, .contatos {
     width: 648px;
     padding: 0px;
   }
@@ -73,31 +73,75 @@
 }
 
 @media screen and (min-width: 1024px) {
- 
   .contato-paragrafo {
     width: 900px;
   }
 
   .form-contato .form {
     width: 900px;
+    gap: 0;
+  }
+
+  .form-contato .form input {
+    margin-bottom: 64px;
   }
 
   .form-contato .form .contatos {
+    width: 900px;
     display: flex;
-    flex-wrap: wrap;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .form-contato .form .contatos input[type="tel"] {
+    width: 438px;
+    gap: 0;
+  }
+  .form-contato .form .contatos input[type="email"] {
+    width: 438px;
+    margin: 0 0 0 24px;
     gap: 0;
   }
 
-  .form-contato .form input[type="tel"] {
-    width: 438px;
-  }
-  .form-contato .form input[type="email"] {
-    width: 438px;
-    margin-left: 24px;
+  .form-contato .form .form-area textarea {
+    width: 900px;
   }
 
-  .form-contato .form #subject {
-    display: flex;
+  .form-contato .form a {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contato-paragrafo {
+    width: 1200px;
+  }
+
+  .form-contato {
+    width: 790px;
+    align-items: center;
+  }
+
+  .form-contato .form {
+    width: 790px;
     gap: 0;
+  }
+
+  .form-contato .form .contatos {
+    width: 790px;
+  }
+
+  .form-contato .form .contatos input[type="tel"] {
+    width: 438px;
+    gap: 0;
+  }
+  .form-contato .form .contatos input[type="email"] {
+    width: 438px;
+    margin: 0 0 0 24px;
+    gap: 0;
+  }
+
+  .form-contato .form .form-area textarea {
+    width: 790px;
   }
 }
