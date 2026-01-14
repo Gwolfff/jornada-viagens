@@ -16,6 +16,13 @@
   flex-direction: column;
   gap: 64px;
   width: 310px;
+}
+
+.form-contato .form .contatos {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 310px;
   padding: 0px;
 }
 
@@ -62,6 +69,13 @@
     padding: 0px;
   }
 
+  .form-contato .form .contatos input[type="tel"] {
+    width: 648px;
+  }
+  .form-contato .form .contatos input[type="email"] {
+    width: 648px;
+  }
+
   .form-contato .form .form-area textarea {
     width: 648px;
   }
@@ -89,8 +103,9 @@
   .form-contato .form .contatos {
     width: 900px;
     display: flex;
-    gap: 0;
+    flex-direction: row;
     justify-content: space-between;
+    gap: 0;
   }
 
   .form-contato .form .contatos input[type="tel"] {
