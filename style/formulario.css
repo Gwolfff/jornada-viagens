@@ -1,0 +1,147 @@
+.contato-text {
+    margin-bottom: 56px;
+  }
+
+.contato-paragrafo {
+  font-weight: var(--text-weight);
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  padding: 24px 24px;
+}
+
+/* formulário */
+.form-contato .form {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 310px;
+  padding: 0px;
+}
+
+.form-contato .form input {
+  height: 40px;
+  border: none;
+  border-bottom: 3px solid #d9d9d9;
+  outline: none;
+}
+
+.form-contato .form input:focus {
+  border: none;
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.form-contato .form input::placeholder{
+  font-size: 22px;
+  line-height: 32px;
+  color: #8C8C8C;
+}
+
+.form-contato .form .form-area p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #8C8C8C;
+  margin-bottom: 8px;
+}
+
+.form-contato .form .form-area textarea {
+  width: 310px;
+  height: 90px;
+  border: 1px solid #8C8C8C;
+}
+
+@media screen and (min-width: 768px) {
+  .contato-paragrafo {
+    padding: 0;
+    width: 648px;
+    font-size: 20px;
+  }
+
+  .form-contato .form, .contatos {
+    width: 648px;
+    padding: 0px;
+  }
+
+  .form-contato .form .form-area textarea {
+    width: 648px;
+  }
+
+  .form-contato .form a {
+    width: 280px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contato-paragrafo {
+    width: 900px;
+  }
+
+  .form-contato .form {
+    width: 900px;
+    gap: 0;
+  }
+
+  .form-contato .form input {
+    margin-bottom: 64px;
+  }
+
+  .form-contato .form .contatos {
+    width: 900px;
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .form-contato .form .contatos input[type="tel"] {
+    width: 438px;
+    gap: 0;
+  }
+  .form-contato .form .contatos input[type="email"] {
+    width: 438px;
+    margin: 0 0 0 24px;
+    gap: 0;
+  }
+
+  .form-contato .form .form-area textarea {
+    width: 900px;
+  }
+
+  .form-contato .form a {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contato-paragrafo {
+    width: 1200px;
+  }
+
+  .form-contato {
+    width: 790px;
+    align-items: center;
+  }
+
+  .form-contato .form {
+    width: 790px;
+    gap: 0;
+  }
+
+  .form-contato .form .contatos {
+    width: 790px;
+  }
+
+  .form-contato .form .contatos input[type="tel"] {
+    width: 438px;
+    gap: 0;
+  }
+  .form-contato .form .contatos input[type="email"] {
+    width: 438px;
+    margin: 0 0 0 24px;
+    gap: 0;
+  }
+
+  .form-contato .form .form-area textarea {
+    width: 790px;
+  }
+}
