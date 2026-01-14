@@ -2,7 +2,8 @@
 .bottom-hero .hero-img,
 .pacotes-hero .hero-img,
 .bottom-pacotes-hero .hero-img,
-.contato-hero .hero-img {
+.contato-hero .hero-img,
+.bottom-contato-hero .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -15,7 +16,8 @@
 .bottom-hero,
 .pacotes-hero,
 .bottom-pacotes-hero,
-.contato-hero {
+.contato-hero,
+.bottom-contato-hero {
   width: 100%;
   margin-bottom: 0;
 }
@@ -43,6 +45,11 @@
 
 .contato-hero .hero-img {
   background: url("../img/contato-hero-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.bottom-contato-hero .hero-img {
+  background: url("../img/imagem-contato-rodape-mobile.png") no-repeat;
   background-size: cover;
 }
 
@@ -133,6 +140,12 @@
     height: 620px;
   }
 
+  .bottom-contato-hero .hero-img {
+    background: url("../img/imagem-contato-rodape-tablet.png") no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
   .pacotes-hero .hero-content h2,
   .contato-hero .hero-content h2 {
     width: 579px;
@@ -206,6 +219,12 @@
     background-size: cover;
   }
 
+  .bottom-contato-hero .hero-img {
+    background: url("../img/imagem-contato-rodape-tablet.png") no-repeat;
+    background-size: cover;
+    height: 680px;
+  }
+
   .hero h2 {
     padding: 88px 120px;
   }
@@ -251,6 +270,12 @@
 
   .contato-hero .hero-img {
     background: url("../img/contato-hero-desktop.png") no-repeat;
+    background-size: cover;
+    height: 670px;
+  }
+
+  .bottom-contato-hero .hero-img {
+    background: url("../img/imagem-contato-rodape-desktop.png") no-repeat;
     background-size: cover;
     height: 670px;
   }
