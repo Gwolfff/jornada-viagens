@@ -251,32 +251,38 @@
     height: 680px;
   }
 
+  .blog-hero .hero-img {
+    background: url("../img/blog-hero-tablet.png") no-repeat;
+    background-size: cover;
+    height: 680px;
+  }
+
   .hero h2 {
     padding: 88px 120px;
   }
 
   .pacotes-hero .hero-content hr,
-  .contato-hero .hero-content hr {
+  .contato-hero .hero-content hr, .blog-hero .hero-content hr {
     margin-left: 0;
     margin-right: 39%;
   }
 
   .pacotes-hero .hero-content,
-  .contato-hero .hero-content {
+  .contato-hero .hero-content, .blog-hero .hero-content {
     align-items: unset;
   }
 
   .pacotes-hero .hero-content .conteudo-hero,
-  .contato-hero .hero-content .conteudo-hero {
+  .contato-hero .hero-content .conteudo-hero, .blog-hero .hero-content .conteudo-hero {
     margin-left: 100px;
   }
 
   .pacotes-hero .hero-content h2,
-  .contato-hero .hero-content h2 {
+  .contato-hero .hero-content h2, .blog-hero .hero-content h2 {
     padding-left: 0;
   }
 
-  .contato-hero .hero-content .conteudo-hero h2 {
+  .contato-hero .hero-content .conteudo-hero h2, .blog-hero .hero-content .contato-hero h2 {
     margin-top: 109px;
   }
 }
@@ -306,6 +312,12 @@
     height: 670px;
   }
 
+  .blog-hero .hero-img {
+    background: url("../img/blog-hero-desktop.png") no-repeat;
+    background-size: cover;
+    height: 680px;
+  }
+
   .contato-hero .hero-content h2 {
     width: 579px;
     text-align: left;
@@ -313,17 +325,21 @@
     margin-top: 209px;
   }
 
-  .contato-hero .hero-content hr {
+  .contato-hero .hero-content hr, .blog-hero .hero-content hr {
     margin-left: 0;
     margin-right: 51%;
     margin-top: 12px;
   }
 
-  .contato-hero .hero-content p {
+  .contato-hero .hero-content p, .blog-hero .hero-content p {
     width: 579px;
     height: 303px;
     padding: 0;
     margin-top: 32px;
+  }
+
+  .blog-hero .hero-content h2 {
+    margin-top: 109px;
   }
 }
 
