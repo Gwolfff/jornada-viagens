@@ -9,6 +9,10 @@
   line-height: 32px;
 }
 
+.tokyo-content {
+  margin-bottom: 32px;
+}
+
 .tokyo-content .section-title {
   margin-bottom: 56px;
 }
@@ -27,7 +31,7 @@
   gap: 24px;
 }
 
-.tokyo-content .content-chegada h3 {
+h3 {
   margin: 0;
 }
 
@@ -36,6 +40,21 @@
 }
 
 .tokyo-content .content-chegada .img-desktop {
+  display: none;
+}
+
+.tokyo-destino .destinos-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0px 20px;
+}
+
+.tokyo-destino .destinos-content img.blog-img-mobile {
+  display: block;
+}
+
+.tokyo-destino .destinos-content img.blog-img-desktop {
   display: none;
 }
 
@@ -57,6 +76,18 @@
 
   .tokyo-content .content-chegada img.img-desktop {
     display: none;
+  }
+
+  .tokyo-destino .destinos-content {
+    margin: 0px;
+  }
+
+  .tokyo-destino .destinos-content img.blog-img-mobile {
+    display: none;
+  }
+
+  .tokyo-destino .destinos-content img.blog-img-desktop {
+    display: block;
   }
 }
 
