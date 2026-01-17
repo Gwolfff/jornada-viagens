@@ -54,6 +54,10 @@ h3 {
   display: block;
 }
 
+.tokyo-destino .destinos-content img.blog-img-tablet {
+  display: none;
+}
+
 .tokyo-destino .destinos-content img.blog-img-desktop {
   display: none;
 }
@@ -86,8 +90,12 @@ h3 {
     display: none;
   }
 
-  .tokyo-destino .destinos-content img.blog-img-desktop {
+  .tokyo-destino .destinos-content img.blog-img-tablet {
     display: block;
+  }
+
+  .tokyo-destino .destinos-content img.blog-img-desktop {
+    display: none;
   }
 }
 
@@ -131,5 +139,21 @@ h3 {
     background: no-repeat;
     display: block;
     width: 588px;
+  }
+
+  .tokyo-destino .destinos-content {
+    gap: 48px;
+  }
+
+  .tokyo-destino .destinos-content img.blog-img-mobile {
+    display: none;
+  }
+
+  .tokyo-destino .destinos-content img.blog-img-tablet {
+    display: none;
+  }
+
+  .tokyo-destino .destinos-content img.blog-img-desktop {
+    display: block;
   }
 }
