@@ -76,6 +76,20 @@
     width: 900px;
   }
 
+  .destinations .section-title {
+    margin: 0;
+    width: 900px;
+  }
+
+  .destinations .destinations-items .item {
+    width: 900px;
+  }
+
+  .destinations .item .img-item {
+    background: url("../img/tokyo-tablet-deskt.jpg");
+    background-size: cover;
+  }
+
   .destinations-items .item header {
     padding: 0;
   }
