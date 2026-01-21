@@ -104,11 +104,11 @@ h3 {
   background-size: cover;
 }
 
-.post-title {
+.posts-title {
   font-size: 32px;
   font-weight: var(--title-weight);
-  margin-top: 16px;
-  margin-bottom: 8px;
+  align-items: center;
+  width: 100%;
 }
 
 .post-paragraph {
